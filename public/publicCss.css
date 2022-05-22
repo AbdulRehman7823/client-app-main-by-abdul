@@ -1,0 +1,224 @@
+.navbar {
+  background-color: rgb(34, 82, 172);
+}
+.card {
+  border-radius: 10px;
+}
+.dashboard-brand {
+  background: url("./docotrBanner.jpg");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-fluid {
+  height: 10rem;
+  width: 10rem;
+}
+.t-buttons {
+  width: 5rem;
+  border-radius: 10px;
+}
+.table {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.table-head {
+  background-color: rgb(34, 82, 172);
+  color: #fff;
+}
+#products {
+  margin-top: 5rem;
+}
+#btn-addProduct {
+  height: 2.7rem;
+  font-weight: bold;
+}
+#add-form-brand {
+  background-color: rgb(34, 82, 172);
+  border-radius: 20px;
+  color: #fff;
+  padding: 8% 3%;
+}
+.rounded-circle {
+  height: 7rem;
+  width: 7rem;
+}
+.btn-card {
+  width: 8rem;
+}
+.work-count {
+  font-size: 5rem;
+}
+#footer {
+  background-color: rgb(72, 116, 198);
+  height: 15rem;
+  width: 100%;
+  color: #fff;
+}
+#faqs-section {
+  margin-top: 5rem;
+}
+#privacy-Section {
+  margin-top: 5rem;
+}
+#aboutus-section {
+  margin-top: 5rem;
+}
+
+#medicines {
+  margin-top: 5rem;
+  min-height: 100vh;
+}
+#stakeholder {
+  min-height: 100vh;
+}
+#requestsPage {
+  min-height: 100vh;
+}
+
+#MedicineCard {
+  margin: 0.5rem;
+  border-radius: 30px;
+  overflow: hidden;
+}
+#productImg {
+  height: 175px;
+}
+#appointmentDetails{
+  min-height: 100vh;
+  margin-top: 5rem;
+}
+.appointmentDetailImage{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+#appointment-Section{
+  margin-top: 5rem;
+}
+#appointment-form{
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  #medicineList {
+    justify-content: center;
+  }
+}
+#appointmentDetailsimg{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+#counter{
+  width: 110px;
+}
+#cartBody{
+margin-top: 5rem;
+}
+#cartTable{
+ 
+  min-height: 100vh;
+  padding: 0% 8%;
+}
+#cart-header{
+background-color:rgb(34, 82, 172) ;
+color: #fff;
+}
+
+
+/* customer Dashboard css */
+.doctorImage{
+  width: 450px;
+  height: 400px;
+}
+
+.findDoc{
+  width: 100px;
+  height: 100px;
+}
+.img-holder{
+  height: 56px;
+    width: 56px;
+    background: blue;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    padding: 8px;
+    color: #fff;
+}
+
+.featuresText {
+  margin-top: 3rem;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.featuresText h1 {
+  font-family: Georgia, serif;
+  color: #3c59ff;
+  font-size: 25pt;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+@media (max-width: 692px) {
+  .featuresText h1 {
+    font-size: 15pt;
+  }
+}
+
+.features {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.featuresdiv h1 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 20pt;
+  color: black;
+  text-align: justify;
+}
+@media (max-width: 692px) {
+  .featuresdiv h1 {
+    font-size: 15pt;
+    text-align: center;
+  }
+}
+
+.featuresdiv h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  color: #6c6c6c;
+  text-align: justify;
+  line-height: 1.5;
+  
+}
+@media (max-width: 692px) {
+  .featuresdiv h4 {
+    font-size: 11pt;
+    text-align: justify;
+    color: #6c6c6c;
+  }
+}
+@media (max-width: 692px) {
+  .featuresDiv {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 750px) and (min-width: 693px) {
+  .featuresDiv {
+    flex-direction: column-reverse;
+  }
+}
+
